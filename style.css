@@ -1,0 +1,29 @@
+html, body{
+    height: 100vh;
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+
+body{
+    background-image: linear-gradient( 45deg, rgb(132, 0, 255),rgb(4, 0, 255));
+    text-align: center;
+ }
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+    color:rgb(255, 255, 255);   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+li:hover{
+    border-bottom: solid 4px white;
+    cursor: pointer;
+}
+img{
+    width: 50px;
+}
